@@ -24,3 +24,5 @@ if(MSVC)
 else()
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
+
+add_subdirectory(plugin)
