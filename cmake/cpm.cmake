@@ -1,7 +1,6 @@
-# Enter CPM Version Below
 set(CPM_DOWNLOAD_VERSION 0.40.5)
-# Enter Hash pulled from CPM below.
-set(CPM_HASH_SUM)
+set(CPM_HASH_SUM
+    c46b876ae3b9f994b4f05a4c15553e0485636862064f1fcc9d8b4f832086bc5d)
 
 set(CPM_DOWNLOAD_LOCATION "${LIB_DIR}/cpm/CPM_${CPM_DOWNLOAD_VERSION}.cmake")
 
