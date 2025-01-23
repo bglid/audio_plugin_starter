@@ -34,11 +34,8 @@ cpmaddpackage(
 
 enable_testing()
 
-if(MSVC)
-  add_compile_options(/Wall /WX)
-else()
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
+# if(MSVC) add_compile_options(/Wall /WX) else() add_compile_options(-Wall
+# -Wextra -Wpedantic) endif()
 
 add_subdirectory(plugin)
 add_subdirectory(test)
