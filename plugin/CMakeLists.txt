@@ -17,6 +17,7 @@ juce_add_plugin(
   PLUGIN_CODE
   AUPL
   FORMATS
+  Standalone
   VST3
   PRODUCT_NAME
   "YourPluginName")
