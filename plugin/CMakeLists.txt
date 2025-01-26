@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.22)
 
 project(AudioPlugin VERSION 0.1.0)
 
+set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include/YourPluginName")
+
 juce_add_plugin(
   ${PROJECT_NAME}
   COMPANY_NAME
